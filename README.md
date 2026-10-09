@@ -42,7 +42,22 @@ Alle von Wikimedia Commons, Download-URL, Lizenz, Urheber:in und SHA-1 in [`phot
 Bricolage Grotesque (instanziert auf opsz 72, wdth 100, wght 400–800) und Hanken Grotesk (wght 100–900), beide SIL OFL 1.1, Latin-Untermenge als WOFF2 (35 KB + 31 KB), selbst gehostet, `font-display: swap`, Preload.
 
 ## Messwerte
-MESSWERTE_PLATZHALTER
+Gemessen am 09.10.2026 gegen 14:45–14:50 Uhr (MESZ) an der **Live-Seite** https://alper3019-ux.github.io/holzwerk-aumann/ mit Lighthouse 13 (Chrome, je 5 Läufe, Median) und axe-core. Die Messmaschine war während der Messung stark ausgelastet (Load-Average > 9 auf 8 Kernen); die Streuung im Mobil-Wert kommt vor allem daher (TBT).
+
+| Messung | Ergebnis |
+|---|---|
+| Lighthouse Mobil, Performance (Median aus 5) | **91** (Einzelläufe 86 / 91 / 96 / 86 / 100) |
+| Lighthouse Mobil, Accessibility / Best Practices / SEO | 100 / 100 / 100 |
+| Lighthouse Mobil, Median-Metriken | FCP 1,3 s · LCP 1,9 s · TBT 314 ms · CLS 0 |
+| Lighthouse Desktop, Performance (Median aus 5) | **100** (alle Läufe 100) |
+| Lighthouse Desktop, Accessibility / Best Practices / SEO | 100 / 100 / 100 |
+| Lighthouse Desktop, Median-Metriken | FCP 0,35 s · LCP 0,42 s · TBT 0 ms · CLS 0 |
+| axe-core (WCAG 2.2 AA + Best Practices), Startseite Desktop + Mobil | 0 Verstöße |
+| axe-core, alle Unterseiten (3 Projekte, Impressum, Datenschutz, Bildrechte, 404) Desktop + Mobil | 0 Verstöße |
+| Interaktionstest (Playwright, `scripts/interaction-test.mjs`) | 23 / 23 bestanden, keine Konsolenfehler |
+| Übertragung Startseite (Mobil, Erstaufruf) | ca. 165 KB in 12 Anfragen, keine Drittanbieter |
+
+Rohdaten: `reports/live/summary.json`, `reports/live/subpages.txt`, `reports/live/interaction.txt`.
 
 ## Entwickeln, bauen, veröffentlichen
 ```bash

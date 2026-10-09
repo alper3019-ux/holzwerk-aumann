@@ -1,0 +1,159 @@
+{
+  "url": "https://alper3019-ux.github.io/holzwerk-aumann/",
+  "date": "2026-10-09T12:47:37.738Z",
+  "lighthouse": {
+    "mobile": {
+      "runs": 5,
+      "scoresMedian": {
+        "performance": 91,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100,
+        "agentic-browsing": 100
+      },
+      "performancePerRun": [
+        86,
+        91,
+        96,
+        86,
+        100
+      ],
+      "metricsMedian": {
+        "fcp": 1315,
+        "lcp": 1937,
+        "tbt": 314,
+        "cls": 0,
+        "si": 4242.817,
+        "bytes": 236546
+      }
+    },
+    "desktop": {
+      "runs": 5,
+      "scoresMedian": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100,
+        "agentic-browsing": 100
+      },
+      "performancePerRun": [
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "metricsMedian": {
+        "fcp": 349,
+        "lcp": 420,
+        "tbt": 0,
+        "cls": 0,
+        "si": 766.463,
+        "bytes": 385936
+      }
+    }
+  },
+  "axe": {
+    "desktop": {
+      "violations": 0,
+      "nodes": 0,
+      "list": []
+    },
+    "mobile": {
+      "violations": 0,
+      "nodes": 0,
+      "list": []
+    }
+  },
+  "transfer": {
+    "totalBytes": 164511,
+    "requests": 12,
+    "thirdPartyHosts": [],
+    "list": [
+      {
+        "url": "https://alper3019-ux.github.io/holzwerk-aumann/fonts/hanken-var.woff2",
+        "type": "font",
+        "status": 200,
+        "transfer": 31123,
+        "encoding": ""
+      },
+      {
+        "url": "https://alper3019-ux.github.io/holzwerk-aumann/",
+        "type": "document",
+        "status": 200,
+        "transfer": 10229,
+        "encoding": "gzip"
+      },
+      {
+        "url": "https://alper3019-ux.github.io/holzwerk-aumann/photos/hero-1440.avif",
+        "type": "image",
+        "status": 200,
+        "transfer": 24529,
+        "encoding": ""
+      },
+      {
+        "url": "https://alper3019-ux.github.io/holzwerk-aumann/assets/main-DE3ZLY37.css",
+        "type": "stylesheet",
+        "status": 200,
+        "transfer": 7002,
+        "encoding": "gzip"
+      },
+      {
+        "url": "https://alper3019-ux.github.io/holzwerk-aumann/fonts/bricolage-var.woff2",
+        "type": "font",
+        "status": 200,
+        "transfer": 35255,
+        "encoding": ""
+      },
+      {
+        "url": "https://alper3019-ux.github.io/holzwerk-aumann/assets/main-DM-GHaGA.js",
+        "type": "script",
+        "status": 200,
+        "transfer": 2307,
+        "encoding": "gzip"
+      },
+      {
+        "url": "https://alper3019-ux.github.io/holzwerk-aumann/assets/wizard-DgEvIz8_.js",
+        "type": "script",
+        "status": 200,
+        "transfer": 2013,
+        "encoding": "gzip"
+      },
+      {
+        "url": "https://alper3019-ux.github.io/holzwerk-aumann/favicon.svg",
+        "type": "other",
+        "status": 200,
+        "transfer": 450,
+        "encoding": "gzip"
+      },
+      {
+        "url": "https://alper3019-ux.github.io/holzwerk-aumann/photos/kueche-400.avif",
+        "type": "image",
+        "status": 200,
+        "transfer": 11571,
+        "encoding": ""
+      },
+      {
+        "url": "https://alper3019-ux.github.io/holzwerk-aumann/photos/schrank-400.avif",
+        "type": "image",
+        "status": 200,
+        "transfer": 10305,
+        "encoding": ""
+      },
+      {
+        "url": "https://alper3019-ux.github.io/holzwerk-aumann/photos/treppe-400.avif",
+        "type": "image",
+        "status": 200,
+        "transfer": 14080,
+        "encoding": ""
+      },
+      {
+        "url": "https://alper3019-ux.github.io/holzwerk-aumann/photos/eingang-400.avif",
+        "type": "image",
+        "status": 200,
+        "transfer": 15647,
+        "encoding": ""
+      }
+    ]
+  }
+}

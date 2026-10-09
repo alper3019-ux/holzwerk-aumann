@@ -3,3 +3,7 @@ dist/
 reports/local/
 *.log
 .DS_Store
+reports/live/lighthouse-*.json
+reports/live/lighthouse-*.html
+reports/live/axe-*.json
+reports/live/audit.log

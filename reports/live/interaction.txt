@@ -1,0 +1,24 @@
+PASS Regler: End → 100 % Vorher 100%
+PASS Regler: Home + 25× Pfeil → 25 % 25% / "25 % Vorher, 75 % Nachher"
+PASS Regler: Schaltfläche „Nur nachher" 
+PASS Schritt 1: Fehler ohne Auswahl 
+PASS Schritt 2 sichtbar 
+PASS Fokus auf Überschrift Schritt 2 
+PASS Schritt 2: unplausible Breite abgelehnt 
+PASS Schritt 3 sichtbar 
+PASS Foto-Vorschau lokal 
+PASS Schritt 4 sichtbar, Absenden-Knopf sichtbar, Weiter verborgen 
+PASS Schritt 4: Pflichtfelder geprüft 
+PASS Schritt 4: ungültige E-Mail abgelehnt 
+PASS Ehrliches Demo-Ende („nichts gesendet") Demo beendet: Es wurde nichts gesendet.
+PASS Kein Netzwerk-Request beim Absenden 
+PASS Neustart → Schritt 1 
+PASS Projektseite hat view-transition-name am Hero 
+PASS 404-Seite 
+PASS Mobil: Anruf-Leiste sichtbar mit tel:-Link 
+PASS Mobil: Menü öffnet (aria-expanded=true) 
+PASS Mobil: Escape schließt Menü 
+PASS Mobil: kein horizontales Scrollen 0px
+PASS Reduced Motion: keine Hero-Animation none
+PASS Keine Konsolenfehler 
+23/23 bestanden

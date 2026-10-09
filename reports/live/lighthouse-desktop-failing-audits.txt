@@ -1,0 +1,6 @@
+max-potential-fid (0.57) 230 ms
+cache-insight (0) Est savings of 336 KiB
+forced-reflow-insight (0) 
+image-delivery-insight (0.5) Est savings of 90 KiB
+network-dependency-tree-insight (0) 
+render-blocking-insight (0.5) 

@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1 – 09.10.2026
+- Live-Messung (Lighthouse 5 Läufe mobil/desktop, axe auf allen Seiten, Interaktionstest) nachgetragen, Screenshots von der Live-Seite.
+- Neues Skript `scripts/axe-pages.mjs` für axe-Prüfung der Unterseiten.
+
 ## 1.0.0 – 09.10.2026
 - Erste Veröffentlichung der Demo-Website „Holzwerk Aumann“ (fiktive Tischlerei, Kempten/Allgäu).
 - Startseite mit 7 nummerierten Abschnitten und Wegweiser-Leiste (Guided Scrolling), Seiten-Fortschrittsbalken per `animation-timeline: scroll()`.

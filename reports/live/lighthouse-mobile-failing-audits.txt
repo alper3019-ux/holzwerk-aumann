@@ -1,0 +1,9 @@
+speed-index (0.72) 4.5 s
+total-blocking-time (0.68) 400 ms
+max-potential-fid (0.04) 600 ms
+cache-insight (0) Est savings of 202 KiB
+forced-reflow-insight (0) 
+image-delivery-insight (0.5) Est savings of 69 KiB
+lcp-breakdown-insight (0) 
+network-dependency-tree-insight (0) 
+render-blocking-insight (0.5) 
