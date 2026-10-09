@@ -1,0 +1,24 @@
+{
+  "name": "holzwerk-aumann",
+  "version": "1.0.0",
+  "description": "Holzwerk Aumann – fiktive Demo-Website einer Tischlerei im Allgäu (Vite, Vanilla JS/CSS)",
+  "private": true,
+  "type": "module",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "vite --port 4331 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview --port 4332 --strictPort",
+    "photos": "node scripts/process-photos.mjs",
+    "audit": "node scripts/audit.mjs",
+    "screenshots": "node scripts/screenshots.mjs"
+  },
+  "devDependencies": {
+    "axe-core": "^4.14.0",
+    "lighthouse": "^13.5.0",
+    "playwright": "^1.64.0",
+    "sharp": "^0.35.5",
+    "chrome-launcher": "^1.2.0",
+    "vite": "^8.3.4"
+  }
+}
